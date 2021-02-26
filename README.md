@@ -8,4 +8,4 @@
 
 ## Description
 
-By following this Udemy course by Jonas Schmedtmann I was able to draft my own version of the featured (fictitious) one-page website and subsequently edit it myself (mainly with Bootstrap and Flexbox).
+By following this Udemy course by Jonas Schmedtmann I drafted my own version of the featured (fictitious) one-page website and subsequently customized it (mainly with Bootstrap and Flexbox).
