@@ -238,19 +238,42 @@ nav {
   opacity: 0.9;
 }
 
-/* Section features */
-#section-features .long-copy {
-  margin-bottom: 30px;
-}
-
+/* Section Features */
 .long-copy {
+  margin-bottom: 30px;
   line-height: 145%;
   width: 70%;
   margin: 0 auto;
+  font-style: italic;
+  font-weight: 500;
 }
 
-/* Meals section */
-.section-meals {
+#features ion-icon {
+  font-size: 60px;
+  color: #1acc23;
+  opacity: 0.6;
+  margin: 50px 0 20px;
+}
+
+#features ion-icon:hover {
+  transform: scale(1.5);
+  transition: 1s;
+}
+
+#features h3:hover {
+  color: #1acc23;
+  font-weight: 600;
+  transition: 0.5s;
+  transform: scale(1.05);
+}
+
+#features ion-icon:hover,
+#features h3:hover {
+  cursor: pointer;
+}
+
+/* Section Meals */
+#meals {
   padding: 0;
 }
 
