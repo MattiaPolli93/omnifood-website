@@ -308,7 +308,7 @@ nav {
 }
 
 /* How it works section */
-.section-steps {
+#steps {
   background-color: #f4f4f4;
 }
 
@@ -318,22 +318,33 @@ nav {
   margin-top: 30px;
 }
 
+.app-screen {
+  width: 40%;
+}
+
 .steps-box:last-child {
   padding-left: 3%;
   margin-top: 70px;
 }
 
-.app-screen {
-  width: 40%;
+.works-step .number {
+  font-size: 40px;
+  width: 70px;
+  height: auto;
+  color: #1acc23;
+  border: 3px solid #1acc23;
+  border-radius: 50%;
 }
 
-.works-step {
+.works-step p {
+  width: 90%;
+  margin-left: 30px;
+}
+
+.works-step .number,
+.works-step p {
   margin-bottom: 50px;
 }
-
-.works-step:last-of-type {
-  margin-bottom: 80px;
-}      
 
 .btn-app:link,
 .btn.app:visited {
