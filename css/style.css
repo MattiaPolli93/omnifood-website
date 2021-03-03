@@ -263,7 +263,7 @@ nav {
 #features h3:hover {
   color: #1acc23;
   font-weight: 600;
-  transition: 0.5s;
+  transition: 0.2s;
   transform: scale(1.05);
 }
 
@@ -274,31 +274,30 @@ nav {
 
 /* Section Meals */
 #meals {
+  display: flex;
+  flex-wrap: wrap;
   padding: 0;
 }
 
 .meals-showcase {
-  list-style: none;
-  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 0;
 }
 
 .meals-showcase li {
-  display: block;
-  float: left;
-  width: 25%;
+  flex-basis: 25%;
 }
 
 .meal-photo {
-  width: 100%;
-  margin-left: 0;
+  margin: 0;
   overflow: hidden;
   background-color: #000;
 }
 
 .meal-photo img {
-  opacity: 0.7;
   width: 100%;
-  height: auto;
+  opacity: 0.9;
   transform: scale(1.15);
   transition: transform 0.5s, opacity 0.5s;
 }
